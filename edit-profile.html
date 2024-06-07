@@ -6,7 +6,7 @@
     <title>Edit Profile</title>
     <link rel="stylesheet" href="./assets/dist/css/style.min.css" />
   </head>
-  <body>
+  <body class="bg-dark">
     <header>
       <a class="navbar-brand" href="./index.html"
         ><img
@@ -18,8 +18,8 @@
     <main class="position-absolute top-50 start-50 translate-middle">
       <div>
         <h1>Edit Profile</h1>
-        <section id="mainSection" class="d-flex border-top border-bottom">
-          <div>
+        <section id="mainSection " class="d-flex border-top border-bottom py-3">
+          <div class="pe-3">
             <img
               width="100px"
               src="./Netflix-assets/Netflix-assets/assets/avatar.png"
@@ -28,8 +28,8 @@
           </div>
           <div>
             <div class="dropdown">
-              <div>Strive Student</div>
-              <h4>Language</h4>
+              <div class="bg-secondary p-1">Strive Student</div>
+              <h4 class="fs-5 mt-4">Language:</h4>
               <button
                 class="btn btn-secondary dropdown-toggle"
                 type="button"
@@ -46,9 +46,11 @@
                 </li>
               </ul>
               <hr />
-              <h3>Maturity Settings:</h3>
-              <div>ALL MATURITY RATING</div>
-              <p>Show titles of all maturity ratings for this profile</p>
+              <h3 class="fs-5 mb-3">Maturity Settings:</h3>
+              <div class="d-inline bg-secondary p-1">ALL MATURITY RATING</div>
+              <p class="fs-7 mt-2">
+                Show titles of all maturity ratings for this profile
+              </p>
               <button type="button" class="btn btn-outline-secondary">
                 EDIT
               </button>
@@ -68,10 +70,14 @@
           </div>
         </section>
       </div>
-      <div id="button">
-        <button type="button" class="btn btn-outline-secondary">SAVE</button>
-        <button type="button" class="btn btn-outline-secondary">CANCEL</button>
-        <button type="button" class="btn btn-outline-secondary">
+      <div id="button" class="d-flex justify-content-between">
+        <button type="button" class="btn btn-outline-secondary px-4 py-1">
+          SAVE
+        </button>
+        <button type="button" class="btn btn-outline-secondary px-4 py-1">
+          CANCEL
+        </button>
+        <button type="button" class="btn btn-outline-secondary px-4 py-1">
           DELETE PROFILE
         </button>
       </div>
