@@ -15,45 +15,66 @@
           alt="logo netflix"
       /></a>
     </header>
-    <main class="position-relative">
-      <h1>Edit Profile</h1>
-      <section id="mainSection" class="d-flex">
-        <div>
-          <img
-            width="100px"
-            src="./Netflix-assets/Netflix-assets/assets/avatar.png"
-            alt=""
-          />
-        </div>
-        <div>
-          <div class="dropdown">
-            <div>Strive Student</div>
-            <h4>Language</h4>
-            <button
-              class="btn btn-secondary dropdown-toggle"
-              type="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              English
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-            <hr />
-            <h3>Maturity Settings:</h3>
-            <div>ALL MATURITY RATING</div>
-            <p>Show titles of all maturity ratings for this profile</p>
-            <button type="button" class="btn btn-outline-secondary">
-              EDIT
-            </button>
-            <hr />
-            <h3>Autoplay Controls</h3>
+    <main class="position-absolute top-50 start-50 translate-middle">
+      <div>
+        <h1>Edit Profile</h1>
+        <section id="mainSection" class="d-flex border-top border-bottom">
+          <div>
+            <img
+              width="100px"
+              src="./Netflix-assets/Netflix-assets/assets/avatar.png"
+              alt=""
+            />
           </div>
-        </div>
-      </section>
+          <div>
+            <div class="dropdown">
+              <div>Strive Student</div>
+              <h4>Language</h4>
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                English
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+              <hr />
+              <h3>Maturity Settings:</h3>
+              <div>ALL MATURITY RATING</div>
+              <p>Show titles of all maturity ratings for this profile</p>
+              <button type="button" class="btn btn-outline-secondary">
+                EDIT
+              </button>
+              <hr />
+              <h3>Autoplay Controls</h3>
+              <label>
+                <input type="checkbox" />
+                <span class="custom-checkbox"></span>
+                Autoplay next episode in a series on all devices
+              </label>
+              <label class="d-block">
+                <input type="checkbox" />
+                <span class="custom-checkbox"></span>
+                Autoplay previews while browsing on all devices
+              </label>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div id="button">
+        <button type="button" class="btn btn-outline-secondary">SAVE</button>
+        <button type="button" class="btn btn-outline-secondary">CANCEL</button>
+        <button type="button" class="btn btn-outline-secondary">
+          DELETE PROFILE
+        </button>
+      </div>
     </main>
   </body>
 </html>
