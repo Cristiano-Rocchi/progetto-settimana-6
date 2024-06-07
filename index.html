@@ -6,7 +6,7 @@
     <title>Netflix</title>
     <link rel="stylesheet" href="./assets/dist/css/style.min.css" />
   </head>
-  <body class="bg-dark text-light">
+  <body class="bg-dark">
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -101,7 +101,22 @@
         <article class="d-flex align-items-center">
           <h1 class="me-4 mb-3">TV Shows</h1>
           <div>
-            <li class="nav-item dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              English
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+            <!--  <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -119,7 +134,7 @@
                   <a class="dropdown-item" href="#">Something else here</a>
                 </li>
               </ul>
-            </li>
+            </li> -->
           </div>
         </article>
         <section id="section1" class="mb-5">
