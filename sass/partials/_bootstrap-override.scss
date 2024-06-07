@@ -6,7 +6,14 @@
 @import "../../bootstrap/scss/variables";
 @import "../../bootstrap/scss/variables-dark";
 /* override di mappe */
+$custom-font-size: (
+  7: 0.9rem,
+  8: 0.8rem,
+  9: 0.7rem,
+  10: 0.6rem,
+);
 
+$font-sizes: map-merge($font-sizes, $custom-font-size);
 @import "../../bootstrap/scss/maps";
 @import "../../bootstrap/scss/mixins";
 @import "../../bootstrap/scss/utilities";
