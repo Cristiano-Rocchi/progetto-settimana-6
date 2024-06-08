@@ -1,5 +1,8 @@
 @import "./partials/bootstrap-override";
-body {
+/* body {
   background-color: $dark;
   color: $light;
+} */
+h5 {
+  color: $secondary;
 }

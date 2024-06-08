@@ -12250,7 +12250,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  background-color: #212529;
-  color: #f8f9fa;
+/* body {
+  background-color: $dark;
+  color: $light;
+} */
+h5, .h5 {
+  color: #6c757d;
 }/*# sourceMappingURL=style.css.map */
