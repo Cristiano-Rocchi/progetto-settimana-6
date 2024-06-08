@@ -8,14 +8,15 @@
   </head>
   <body class="bg-dark">
     <header>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"
-            ><img
+          <a class="navbar-brand" href="#">
+            <img
               height="50px"
               src="./Netflix-assets/Netflix-assets/assets/netflix_logo.png"
               alt="logo netflix"
-          /></a>
+            />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -40,7 +41,6 @@
               <li class="nav-item">
                 <a class="nav-link text-light" href="#">Tv Shows</a>
               </li>
-
               <li class="nav-item">
                 <a class="nav-link text-light" href="#">Movies</a>
               </li>
@@ -52,9 +52,9 @@
               </li>
             </ul>
             <ul class="navbar-nav me-1 mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#"
-                  ><svg
+              <li class="nav-item d-none d-lg-block">
+                <a class="nav-link text-light" href="#">
+                  <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
                     height="16"
@@ -64,15 +64,16 @@
                   >
                     <path
                       d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
-                    /></svg
-                ></a>
+                    />
+                  </svg>
+                </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item d-none d-lg-block">
                 <a class="nav-link text-light" href="#">KIDS</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#"
-                  ><svg
+              <li class="nav-item d-none d-lg-block">
+                <a class="nav-link text-light" href="#">
+                  <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
                     height="16"
@@ -82,20 +83,25 @@
                   >
                     <path
                       d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"
-                    /></svg
-                ></a>
+                    />
+                  </svg>
+                </a>
               </li>
-              <a class="nav-link" href="./edit-profile.html"
-                ><img
-                  width="20px"
-                  src="./Netflix-assets/Netflix-assets/assets/avatar.png"
-                  alt=""
-              /></a>
+              <li class="nav-item d-none d-lg-block">
+                <a class="nav-link" href="./edit-profile.html">
+                  <img
+                    width="20px"
+                    src="./Netflix-assets/Netflix-assets/assets/avatar.png"
+                    alt=""
+                  />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
+
     <main>
       <div class="container-fluid">
         <article class="d-flex align-items-center">
@@ -367,5 +373,7 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
