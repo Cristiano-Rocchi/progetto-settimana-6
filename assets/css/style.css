@@ -12254,13 +12254,40 @@ textarea.form-control-lg {
   background-color: $dark;
   color: $light;
 } */
+a {
+  text-decoration: none;
+}
+
 h5, .h5 {
   color: #6c757d;
 }
 
 #extraSection p {
-  padding-right: 20rem;
+  padding-right: 15rem;
 }
 #extraSection a {
   text-align: end;
+}
+
+#extraSection > div:first-of-type > div:first-of-type {
+  margin-right: 3rem;
+}
+
+#extraSection2 p {
+  margin-left: -10rem;
+}
+
+#extraSection3 div:nth-of-type(1) {
+  margin-right: 11.2rem;
+}
+
+#extraSection4 a {
+  text-align: end;
+}
+#extraSection4 div:nth-of-type(2) {
+  margin-left: -9.6rem;
+}
+
+#extraSection5 div:nth-of-type(1) {
+  margin-right: 7.5rem;
 }/*# sourceMappingURL=style.css.map */
