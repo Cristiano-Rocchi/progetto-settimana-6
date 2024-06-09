@@ -2,7 +2,9 @@
 // Configuration
 @import "../../bootstrap/scss/functions";
 /* override qui */
-
+$gray-900: #141414;
+$light: #fbfbfb;
+$btn-border-radius: unset;
 @import "../../bootstrap/scss/variables";
 
 @import "../../bootstrap/scss/variables-dark";
@@ -41,6 +43,12 @@ $custom-position-values: (
 );
 
 $position-values: map-merge($position-values, $custom-position-values);
+
+$custom-theme-colors: (
+  "secondary1": #666666,
+  "secondary2": #333333,
+);
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
 @import "../../bootstrap/scss/maps";
 @import "../../bootstrap/scss/mixins";
 @import "../../bootstrap/scss/utilities";
