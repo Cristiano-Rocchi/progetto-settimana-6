@@ -50,3 +50,16 @@ h5 {
     margin-right: 7.5rem;
   }
 }
+.col-12 img {
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.col-12 .position-absolute {
+  transition: transform 0.3s;
+}
+
+.col-12:hover img,
+.col-12:hover .position-absolute {
+  transform: scale(1.15);
+}
