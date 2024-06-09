@@ -58,6 +58,13 @@ h5 {
   .col-12 img {
     padding-bottom: 2rem;
   }
+  #mainSection {
+    text-align: center;
+  }
+  .width-md {
+    width: 15rem;
+    margin-inline: auto;
+  }
 }
 @media (min-width: 768px) {
   .col-12 img {
