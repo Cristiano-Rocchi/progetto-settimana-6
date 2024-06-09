@@ -12481,15 +12481,28 @@ h5, .h5 {
 }
 
 .col-12 img {
-  transition: transform 0.3s;
   cursor: pointer;
 }
 
-.col-12 .position-absolute {
-  transition: transform 0.3s;
+@media (max-width: 768px) {
+  .col-12 img {
+    padding-bottom: 2rem;
+  }
 }
-
-.col-12:hover img,
-.col-12:hover .position-absolute {
-  transform: scale(1.15);
+@media (min-width: 768px) {
+  .col-12 img {
+    transition: transform 0.3s;
+  }
+  .col-12 .position-absolute {
+    transition: transform 0.3s;
+  }
+  .col-12:hover img,
+  .col-12:hover .position-absolute {
+    transform: scale(1.15);
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .col-12 img {
+    padding: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
